@@ -1,6 +1,6 @@
 const admin = require("firebase-admin");
 const fs = require('fs');
-const serviceAccount = require("./serviceAccountKey.json");
+const serviceAccount = require("path/to/serviceAccountKey.json");
 
 let collectionName = process.argv[2];
 let subCollection = process.argv[3];
