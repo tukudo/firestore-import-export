@@ -8,7 +8,7 @@ let subCollection = process.argv[3];
 // You should replace databaseURL with your own
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://ionic-firestore-dn.firebaseio.com"
+  databaseURL: "https://lit-link-prd.firebaseio.com"
 });
 
 let db = admin.firestore();
